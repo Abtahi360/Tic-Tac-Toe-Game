@@ -5,12 +5,6 @@ Play against another player in a clean and responsive UI.
 
 ---
 
-## 🚀 Live Demo
-
-https://tic-tac-toe-game-five-pied.vercel.app/
-
----
-
 ## 📌 Features
 
 * 🧑‍🤝‍🧑 Two-player mode (Player X vs Player O)
