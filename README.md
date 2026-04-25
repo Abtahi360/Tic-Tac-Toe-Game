@@ -7,7 +7,7 @@ Play against another player in a clean and responsive UI.
 
 ## 🚀 Live Demo
 
-*(Add your GitHub Pages link here after deployment)*
+https://tic-tac-toe-game-five-pied.vercel.app/
 
 ---
 
