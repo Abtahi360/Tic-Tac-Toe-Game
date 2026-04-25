@@ -44,7 +44,9 @@ Play against another player in a clean and responsive UI.
 ## 📷 Screenshots
 <img width="1919" height="962" alt="Image" src="https://github.com/user-attachments/assets/484280ac-3314-4142-9d6a-869bdb6cc070" />
 
+
 <img width="1919" height="962" alt="Image" src="https://github.com/user-attachments/assets/c6bc53f7-678e-49ea-95ea-c801e9345fe4" />
+
 
 <img width="1919" height="964" alt="Image" src="https://github.com/user-attachments/assets/7ba12210-c84f-4d5b-812b-d7a071730fc2" />
 
