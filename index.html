@@ -1,0 +1,82 @@
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+
+    <!-- ============ MODE SELECTION SCREEN ============ -->
+    <section id="menu-screen" class="screen active">
+      <h1 class="title">Tic&nbsp;Tac&nbsp;Toe</h1>
+      <p class="subtitle">Choose a game mode to start</p>
+      <div class="mode-buttons">
+        <button class="mode-btn" data-mode="pvp">
+          <span class="mode-icon">👥</span>
+          <span class="mode-label">Player vs Player</span>
+        </button>
+        <button class="mode-btn" data-mode="pvc">
+          <span class="mode-icon">🤖</span>
+          <span class="mode-label">Player vs Computer</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ============ GAME SCREEN ============ -->
+    <section id="game-screen" class="screen">
+      <header class="game-header">
+        <button id="back-btn" class="icon-btn" title="Back to menu">←</button>
+        <h2 class="game-title">Tic Tac Toe</h2>
+        <button id="sound-btn" class="icon-btn" title="Toggle sound">🔊</button>
+      </header>
+
+      <!-- Scoreboard -->
+      <div class="scoreboard">
+        <div class="score-card x-card" id="score-x-card">
+          <span class="score-label">Player X</span>
+          <span class="score-value" id="score-x">0</span>
+        </div>
+        <div class="score-card draw-card">
+          <span class="score-label">Draws</span>
+          <span class="score-value" id="score-d">0</span>
+        </div>
+        <div class="score-card o-card" id="score-o-card">
+          <span class="score-label" id="label-o">Player O</span>
+          <span class="score-value" id="score-o">0</span>
+        </div>
+      </div>
+
+      <!-- Turn indicator -->
+      <div class="turn-indicator">
+        <span id="turn-text">Player X's turn</span>
+      </div>
+
+      <!-- Board -->
+      <div class="board" id="board">
+        <!-- 9 cells injected dynamically -->
+      </div>
+
+      <!-- Controls -->
+      <div class="controls">
+        <button id="restart-btn" class="action-btn">Restart Round</button>
+        <button id="reset-btn" class="action-btn ghost">Reset Scores</button>
+      </div>
+    </section>
+
+    <!-- ============ RESULT MODAL ============ -->
+    <div id="modal" class="modal-overlay">
+      <div class="modal">
+        <h3 id="modal-title">Winner!</h3>
+        <p id="modal-message">Player X wins this round.</p>
+        <button id="modal-btn" class="action-btn">Play Again</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
