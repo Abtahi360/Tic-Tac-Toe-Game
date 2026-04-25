@@ -1,54 +1,73 @@
-# Tic-Tac-Toe Game
+# 🎮 Tic Tac Toe Game
 
-Practice DOM manipulation and event listeners by building an interactive game.
-
----
-
-## Task Description
-Create a browser-based Tic-Tac-Toe game where two players take turns marking cells on a 3x3 grid. The game should track the current player, detect win conditions, and display the game status.
+A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScript**.
+Play against another player in a clean and responsive UI.
 
 ---
 
-## HTML Structure Needed
+## 🚀 Live Demo
 
-- A 3x3 grid container with individual cells  
-- A status display area showing current player or winner  
-- A reset button to start a new game  
+*(Add your GitHub Pages link here after deployment)*
 
 ---
 
-## JavaScript Functionality
+## 📌 Features
 
-### 1. Game Initialization
-- Create the game board dynamically or select existing cells  
-- Initialize game state (empty board, current player = 'X')  
-- Add click event listeners to all cells  
-
-### 2. Gameplay Logic
-When a cell is clicked:
-
-- Mark it with current player's symbol (**X** or **O**)  
-- Prevent marking already filled cells  
-- Check for win or draw after each move  
-- Switch players if game continues  
-
-### 3. Win Detection
-- Check all possible winning combinations (rows, columns, diagonals)  
-- Highlight winning cells when game is won  
-- Display winner message  
-
-### 4. Draw Detection
-- Detect when all cells are filled with no winner  
-- Display **"It's a draw!"** message  
-
-### 5. Reset Functionality
-- Clear all cells  
-- Reset game state to beginning  
-- Update status display  
+* 🧑‍🤝‍🧑 Two-player mode (Player X vs Player O)
+* 🎯 Win detection logic
+* 🔄 Restart / Reset game functionality
+* 💻 Clean and responsive UI
+* ⚡ Fast and lightweight (no frameworks)
 
 ---
 
-## Challenges
+## 🛠️ Technologies Used
 
-- Add a score counter for **X** and **O** wins  
-- Add animation effects when marking cells  
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+
+---
+
+## 🎮 How to Play
+
+* Player X starts first
+* Players take turns clicking empty cells
+* First player to align 3 marks (row, column, or diagonal) wins
+* If all cells are filled without a winner → Draw
+
+---
+
+## 🔮 Future Improvements
+
+* 🤖 Add AI (Play vs Computer)
+* 🎵 Sound effects
+* 🌙 Dark mode
+* 📱 Better mobile responsiveness
+
+---
+
+## Screenshots
+<img width="1919" height="962" alt="Image" src="https://github.com/user-attachments/assets/484280ac-3314-4142-9d6a-869bdb6cc070" />
+
+<img width="1919" height="962" alt="Image" src="https://github.com/user-attachments/assets/c6bc53f7-678e-49ea-95ea-c801e9345fe4" />
+
+<img width="1919" height="964" alt="Image" src="https://github.com/user-attachments/assets/7ba12210-c84f-4d5b-812b-d7a071730fc2" />
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repo and improve the project!
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Author
+
+Created by *Abtahi Islam*
